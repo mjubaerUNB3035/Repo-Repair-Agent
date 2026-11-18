@@ -16,6 +16,8 @@ class Settings:
     # Model
     ollama_url: str = "http://localhost:11434"
     model_name: str = "qwen2.5-coder:14b"
+    embed_model: str = "nomic-embed-text"
+
 
     # Agent Limit
     max_steps: int = 30
